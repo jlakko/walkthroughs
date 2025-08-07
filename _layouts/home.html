@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="hero">
+  <div class="container">
+    <h1>{{ page.title | default: site.title }}</h1>
+    <p>{{ page.description | default: site.description }}</p>
+    {% if page.cta_text and page.cta_link %}
+    <a href="{{ page.cta_link | relative_url }}" class="btn">{{ page.cta_text }}</a>
+    {% endif %}
+  </div>
+</div>
+
+<div class="container">
+  {{ content }}
+</div>

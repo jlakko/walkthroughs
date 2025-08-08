@@ -28,6 +28,14 @@ A comprehensive guide to all four faction endings and Commonwealth mastery, feat
 - Complete main quest paths with choice consequences
 - Post-game content and achievement completion
 
+### Command & Conquer: Generals – Zero Hour Complete Guide
+A comprehensive mastery guide covering all content in the Zero Hour expansion, featuring:
+- Complete campaign walkthroughs for USA, China, and GLA factions
+- Generals Challenge strategies for all 9 specialists plus Boss General Leang
+- Economic fundamentals and faction-specific build orders
+- Multiplayer strategy foundations and competitive tactics
+- 100% completion checklist and achievement guidance
+
 ## Adding New Walkthroughs
 
 This site uses Jekyll collections for walkthrough content. To add a new game walkthrough:

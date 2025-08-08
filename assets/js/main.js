@@ -189,12 +189,110 @@ class LazyImageLoader {
   }
 }
 
+// Spoiler toggle functionality
+class SpoilerToggle {
+  constructor() {
+    this.init();
+  }
+
+  init() {
+    this.setupSpoilerToggleEvent();
+    this.markSpoilersCollapsed();
+  }
+
+  setupSpoilerToggleEvent() {
+    document.addEventListener('click', (e) => {
+      if (e.target.closest('.spoiler-header')) {
+        e.preventDefault();
+        this.toggleSpoiler(e.target.closest('.spoiler-box'));
+      }
+    });
+
+    // Keyboard accessibility
+    document.addEventListener('keydown', (e) => {
+      if ((e.key === 'Enter' || e.key === ' ') && e.target.closest('.spoiler-header')) {
+        e.preventDefault();
+        this.toggleSpoiler(e.target.closest('.spoiler-box'));
+      }
+    });
+  }
+
+  toggleSpoiler(spoilerBox) {
+    const header = spoilerBox.querySelector('.spoiler-header');
+    const content = spoilerBox.querySelector('.spoiler-content');
+    const toggle = spoilerBox.querySelector('.spoiler-toggle');
+    
+    const isExpanded = content.classList.contains('expanded');
+    
+    if (isExpanded) {
+      content.classList.remove('expanded');
+      toggle.classList.remove('expanded');
+      header.setAttribute('aria-expanded', 'false');
+      
+      // Save collapsed state for this spoiler
+      this.saveSpoilerState(spoilerBox, false);
+    } else {
+      content.classList.add('expanded');
+      toggle.classList.add('expanded');
+      header.setAttribute('aria-expanded', 'true');
+      
+      // Save expanded state for this spoiler
+      this.saveSpoilerState(spoilerBox, true);
+    }
+  }
+
+  markSpoilersCollapsed() {
+    const spoilerBoxes = document.querySelectorAll('.spoiler-box');
+    
+    spoilerBoxes.forEach(spoilerBox => {
+      const header = spoilerBox.querySelector('.spoiler-header');
+      const content = spoilerBox.querySelector('.spoiler-content');
+      const toggle = spoilerBox.querySelector('.spoiler-toggle');
+      
+      // Add ARIA attributes for accessibility
+      header.setAttribute('role', 'button');
+      header.setAttribute('aria-expanded', 'false');
+      header.setAttribute('tabindex', '0');
+      
+      // Check if this spoiler was previously expanded
+      const spoilerId = this.getSpoilerId(spoilerBox);
+      const wasExpanded = this.getSpoilerState(spoilerId);
+      
+      if (wasExpanded) {
+        content.classList.add('expanded');
+        toggle.classList.add('expanded');
+        header.setAttribute('aria-expanded', 'true');
+      }
+    });
+  }
+
+  getSpoilerId(spoilerBox) {
+    // Create a unique ID based on content or position
+    const title = spoilerBox.querySelector('.spoiler-title')?.textContent || '';
+    const page = window.location.pathname;
+    return `${page}-${title.replace(/\s+/g, '-').toLowerCase()}`;
+  }
+
+  getSpoilerState(spoilerId) {
+    const states = JSON.parse(localStorage.getItem('spoiler-states') || '{}');
+    return states[spoilerId] || false;
+  }
+
+  saveSpoilerState(spoilerBox, isExpanded) {
+    const spoilerId = this.getSpoilerId(spoilerBox);
+    const states = JSON.parse(localStorage.getItem('spoiler-states') || '{}');
+    states[spoilerId] = isExpanded;
+    localStorage.setItem('spoiler-states', JSON.stringify(states));
+  }
+}
+
 // Initialize everything when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
   new ThemeSwitcher();
   new ProgressTracker();
   new MobileNavigation();
   new LazyImageLoader();
+  new SpoilerToggle();
   
   // Add smooth scrolling for anchor links
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {

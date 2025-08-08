@@ -17,22 +17,22 @@ cta_link: "/minecraft/"
   </div>
   
   <div class="walkthrough-card">
-    <h3>Coming Soon</h3>
-    <div class="card-meta">More guides in development</div>
+    <h3>Fallout 4: Paths to Completion</h3>
+    <div class="card-meta">8 Chapters • Base Game Focus</div>
     <div class="card-description">
-      More game walkthroughs and guides are being prepared. Check back soon for updates!
+      Master all four faction endings, settlement building, and Commonwealth completion with spoiler-safe progression paths.
     </div>
-    <button class="btn" disabled>Coming Soon</button>
+    <a href="{{ '/fallout4/' | relative_url }}" class="btn">Start Guide</a>
   </div>
 </div>
 
 <div class="stats-grid">
   <div class="stat-card">
-    <span class="stat-number">1</span>
-    <div class="stat-label">Complete Walkthrough</div>
+    <span class="stat-number">2</span>
+    <div class="stat-label">Complete Walkthroughs</div>
   </div>
   <div class="stat-card">
-    <span class="stat-number">4</span>
+    <span class="stat-number">12</span>
     <div class="stat-label">Detailed Chapters</div>
   </div>
   <div class="stat-card">

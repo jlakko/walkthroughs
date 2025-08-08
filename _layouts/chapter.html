@@ -1,0 +1,95 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="main-content">
+    <aside class="sidebar">
+      <h3>{{ page.walkthrough_title | default: "Minecraft Guide" }}</h3>
+      
+      <div class="progress-bar">
+        <div class="progress-fill" style="width: 0%"></div>
+      </div>
+      
+      <nav class="chapter-nav">
+        <ul>
+          {% assign chapters = site.walkthroughs | where: "walkthrough", page.walkthrough | sort: "chapter_order" %}
+          {% for chapter in chapters %}
+          <li>
+            <a href="{{ chapter.url | relative_url }}" 
+               {% if chapter.url == page.url %}class="active"{% endif %}>
+              <span class="chapter-number">{{ chapter.chapter_order }}.</span>
+              {{ chapter.title }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+      
+      {% if page.tips %}
+      <div class="chapter-tips">
+        <h4>Quick Tips</h4>
+        <ul>
+          {% for tip in page.tips %}
+          <li>{{ tip }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+    </aside>
+
+    <article class="content">
+      {% if page.breadcrumbs %}
+      <nav class="breadcrumbs">
+        {% for crumb in page.breadcrumbs %}
+          {% if forloop.last %}
+            {{ crumb.title }}
+          {% else %}
+            <a href="{{ crumb.url | relative_url }}">{{ crumb.title }}</a>
+            <span class="separator">/</span>
+          {% endif %}
+        {% endfor %}
+      </nav>
+      {% endif %}
+
+      <div class="chapter-header">
+        {% if page.chapter_order %}
+        <div class="chapter-meta">
+          Chapter {{ page.chapter_order }} {% if page.estimated_time %}• {{ page.estimated_time }}{% endif %}
+        </div>
+        {% endif %}
+        <h1>{{ page.title }}</h1>
+        {% if page.description %}
+        <p class="chapter-description">{{ page.description }}</p>
+        {% endif %}
+      </div>
+
+      {{ content }}
+
+      <nav class="chapter-navigation">
+        {% assign current_chapter = page.chapter_order | plus: 0 %}
+        {% assign prev_chapter = current_chapter | minus: 1 %}
+        {% assign next_chapter = current_chapter | plus: 1 %}
+        
+        {% assign prev_post = site.walkthroughs | where: "walkthrough", page.walkthrough | where: "chapter_order", prev_chapter | first %}
+        {% assign next_post = site.walkthroughs | where: "walkthrough", page.walkthrough | where: "chapter_order", next_chapter | first %}
+        
+        <div class="nav-btn prev">
+          {% if prev_post %}
+          <a href="{{ prev_post.url | relative_url }}" class="btn">
+            Previous: {{ prev_post.title }}
+          </a>
+          {% endif %}
+        </div>
+        
+        <div class="nav-btn next">
+          {% if next_post %}
+          <a href="{{ next_post.url | relative_url }}" class="btn">
+            Next: {{ next_post.title }}
+          </a>
+          {% endif %}
+        </div>
+      </nav>
+    </article>
+  </div>
+</div>

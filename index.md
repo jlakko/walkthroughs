@@ -24,15 +24,24 @@ cta_link: "/minecraft/"
     </div>
     <a href="{{ '/fallout4/' | relative_url }}" class="btn">Start Guide</a>
   </div>
+  
+  <div class="walkthrough-card">
+    <h3>Command & Conquer: Generals – Zero Hour</h3>
+    <div class="card-meta">8 Chapters • Complete Mastery</div>
+    <div class="card-description">
+      Master all campaigns, defeat every general including Boss General Leang, and dominate with comprehensive strategies for total victory.
+    </div>
+    <a href="{{ '/command-and-conquer-generals-zero-hour/' | relative_url }}" class="btn">Begin Command</a>
+  </div>
 </div>
 
 <div class="stats-grid">
   <div class="stat-card">
-    <span class="stat-number">2</span>
+    <span class="stat-number">3</span>
     <div class="stat-label">Complete Walkthroughs</div>
   </div>
   <div class="stat-card">
-    <span class="stat-number">12</span>
+    <span class="stat-number">20</span>
     <div class="stat-label">Detailed Chapters</div>
   </div>
   <div class="stat-card">

@@ -24,15 +24,24 @@ cta_link: "/minecraft/"
     </div>
     <a href="{{ '/fallout4/' | relative_url }}" class="btn">Start Guide</a>
   </div>
+  
+  <div class="walkthrough-card">
+    <h3>Hollow Knight Complete Guide</h3>
+    <div class="card-meta">5 Chapters • Metroidvania Mastery</div>
+    <div class="card-description">
+      Master the haunting world of Hallownest from first steps to final boss. Complete progression guide with boss strategies and secret areas.
+    </div>
+    <a href="{{ '/hollow-knight/' | relative_url }}" class="btn">Start Guide</a>
+  </div>
 </div>
 
 <div class="stats-grid">
   <div class="stat-card">
-    <span class="stat-number">2</span>
+    <span class="stat-number">3</span>
     <div class="stat-label">Complete Walkthroughs</div>
   </div>
   <div class="stat-card">
-    <span class="stat-number">12</span>
+    <span class="stat-number">17</span>
     <div class="stat-label">Detailed Chapters</div>
   </div>
   <div class="stat-card">

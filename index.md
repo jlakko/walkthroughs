@@ -33,15 +33,24 @@ cta_link: "/minecraft/"
     </div>
     <a href="{{ '/hollow-knight/' | relative_url }}" class="btn">Start Guide</a>
   </div>
+  
+  <div class="walkthrough-card">
+    <h3>Stardew Valley Complete Guide</h3>
+    <div class="card-meta">5 Chapters • Farm to Fortune</div>
+    <div class="card-description">
+      Transform your grandfather's farm into a thriving empire! Complete guide covering crops, relationships, seasonal activities, and profit strategies.
+    </div>
+    <a href="{{ '/stardew-valley/' | relative_url }}" class="btn">Start Guide</a>
+  </div>
 </div>
 
 <div class="stats-grid">
   <div class="stat-card">
-    <span class="stat-number">3</span>
+    <span class="stat-number">4</span>
     <div class="stat-label">Complete Walkthroughs</div>
   </div>
   <div class="stat-card">
-    <span class="stat-number">17</span>
+    <span class="stat-number">22</span>
     <div class="stat-label">Detailed Chapters</div>
   </div>
   <div class="stat-card">

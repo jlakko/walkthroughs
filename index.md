@@ -42,15 +42,24 @@ cta_link: "/minecraft/"
     </div>
     <a href="{{ '/stardew-valley/' | relative_url }}" class="btn">Start Guide</a>
   </div>
+  
+  <div class="walkthrough-card">
+    <h3>Factorio Complete Guide (Base Game)</h3>
+    <div class="card-meta">5 Chapters • Automation to Victory</div>
+    <div class="card-description">
+      Build a massive automated factory from scratch! Master belts, automation, oil processing, defense, and launch your first rocket into space.
+    </div>
+    <a href="{{ '/factorio/' | relative_url }}" class="btn">Start Guide</a>
+  </div>
 </div>
 
 <div class="stats-grid">
   <div class="stat-card">
-    <span class="stat-number">4</span>
+    <span class="stat-number">5</span>
     <div class="stat-label">Complete Walkthroughs</div>
   </div>
   <div class="stat-card">
-    <span class="stat-number">22</span>
+    <span class="stat-number">27</span>
     <div class="stat-label">Detailed Chapters</div>
   </div>
   <div class="stat-card">

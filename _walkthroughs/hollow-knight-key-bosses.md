@@ -61,6 +61,8 @@ Unlike many action games, Hollow Knight rewards:
 
 **Recommended charms:** Gathering Swarm (collect Geo), Fury of the Fallen (extra damage when low on health)
 
+**Important Note:** After defeating False Knight, a chest beyond the arena contains the City Crest, which is useful for progression and opening access to the City of Tears later.
+
 <div class="tip-box success">
   <div class="tip-title">💡 False Knight Tips</div>
   <ul>
@@ -68,27 +70,29 @@ Unlike many action games, Hollow Knight rewards:
     <li>Wall climbing is your best defense against ground attacks</li>
     <li>Don't get greedy - wait for clear openings</li>
     <li>Practice pogo jumping on the creature when it's exposed</li>
+    <li>Don't forget the City Crest chest after the fight!</li>
   </ul>
 </div>
 
 ### Hornet (Greenpath)
 **Location:** Greenpath
 **Difficulty:** ⭐⭐⭐☆☆ (Intermediate)
-**When to fight:** After acquiring dash ability
+**When to fight:** To obtain the dash ability (Mothwing Cloak)
+**Reward:** Mothwing Cloak (basic dash - provides horizontal mobility, no invulnerability frames)
 
 **Attack Patterns:**
-- **Dash Attack**: Quick horizontal movement with needle extended
-- **Silk Shot**: Ranged projectile that pins you if it hits
-- **Leap Attack**: Jumps toward your position
-- **Thread Trap**: Creates silk traps on the ground
+- **Needle Lunge**: Quick horizontal dash attack with needle extended
+- **Aerial Thread Lunge**: Leaps into the air and dives toward your position
+- **Hop and Throw**: Small hop followed by needle throw projectile
+- **Defensive Reposition**: Quick movements to create distance
 
 **Strategy:**
-1. **Dash timing**: Use your dash to avoid her dash attacks
-2. **Stay airborne**: Reduces ground trap effectiveness
-3. **Punish recovery**: Attack after she misses her dash
-4. **Break silk pins**: Jump repeatedly if caught by silk shot
+1. **Stay mobile**: Keep moving to avoid her lunge attacks
+2. **Punish recovery**: Attack after she misses her dash or throw
+3. **Aerial positioning**: Jump to avoid ground-level lunges
+4. **Watch for patterns**: She telegraphs her attacks with distinct animations
 
-**Key lessons:** This fight teaches dash timing and aerial combat positioning
+**Key lessons:** This fight teaches movement timing and aerial combat positioning. Master this fight as it's required for the essential dash ability.
 
 ### Massive Moss Charger
 **Location:** Greenpath
@@ -158,9 +162,9 @@ Unlike many action games, Hollow Knight rewards:
 **Recommended charms:** Shaman Stone (spell power), Quick Focus (faster healing)
 
 ### Brooding Mawlek
-**Location:** Forgotten Crossroads (Infected version)
+**Location:** Forgotten Crossroads
 **Difficulty:** ⭐⭐⭐☆☆ (Intermediate)
-**When to fight:** Optional, late mid-game
+**When to fight:** Optional early encounter (accessible early but challenging); infected variant appears later in the game
 
 **Attack Patterns:**
 - **Spit attacks**: Acid projectiles in arcs
@@ -172,24 +176,32 @@ Unlike many action games, Hollow Knight rewards:
 2. **Dodge spits**: Learn the arc patterns to find safe spots
 3. **Punish landings**: Attack after jump slams for guaranteed hits
 
+**Note:** This boss can be fought relatively early but is tougher than False Knight. The area becomes infected later in the game, but this doesn't significantly change the fight mechanics.
+
 ## Late Game Bosses
 
-### Hornet (Kingdom's Edge) - Second Fight
+### Hornet Sentinel (Kingdom's Edge)
 **Location:** Kingdom's Edge
 **Difficulty:** ⭐⭐⭐⭐☆ (Hard)
-**When to fight:** Late game progression, story required
+**When to fight:** Late game progression, required for accessing the Abyss and obtaining Shade Cloak
+**Reward:** King's Brand (grants access to the Abyss, where Shade Cloak is obtained)
 
 **New attacks from first fight:**
+- **Silk Shot**: Ranged projectile that pins you if it hits (not in first fight)
+- **Thread Trap**: Creates silk traps on the ground
 - **Spike trap**: Creates large spike areas
 - **Thread barriers**: Blocks parts of the arena
-- **Enhanced speed**: All attacks are faster
+- **Enhanced speed**: All attacks are faster than first encounter
 - **Combo attacks**: Chains multiple attacks together
 
 **Strategy:**
-1. **Mobility is key**: Use all your movement abilities
+1. **Mobility is key**: Use all your movement abilities (you should have most by now)
 2. **Learn spike patterns**: Spikes have safe zones
 3. **Break barriers quickly**: Don't let thread limit your movement
 4. **Heal during spikes**: Spike attacks create healing windows
+5. **Stay patient**: This fight is significantly harder than the first Hornet encounter
+
+**Important:** The King's Brand reward is essential for late-game progression, as it allows you to enter the Abyss and obtain the Shade Cloak (shadow dash upgrade with phasing and invulnerability).
 
 ### The Hollow Knight (Final Boss)
 **Location:** Temple of the Black Egg
@@ -272,11 +284,11 @@ Before attempting challenging bosses, ensure you have:
   <div class="tip-title">🏆 Boss Mastery Checklist</div>
   <ul>
     <li>✅ Defeated False Knight (learned basic positioning)</li>
-    <li>✅ Defeated Hornet 1 (mastered dash timing)</li>
+    <li>✅ Defeated Hornet (Greenpath) (obtained dash, mastered movement timing)</li>
     <li>✅ Defeated Mantis Lords (advanced movement skills)</li>
     <li>✅ Defeated Soul Master (complex pattern recognition)</li>
     <li>✅ Defeated major area bosses (Watcher Knights, etc.)</li>
-    <li>✅ Defeated Hornet 2 (enhanced mobility usage)</li>
+    <li>✅ Defeated Hornet Sentinel (Kingdom's Edge) (obtained King's Brand for Abyss access)</li>
     <li>✅ Ready for the final confrontation</li>
   </ul>
 </div>

@@ -54,9 +54,11 @@ Hollow Knight's most rewarding content lies beyond the main story path. This cha
 
 **Key content:**
 - **Joni's Blessing charm**: Converts all health to blue health
-- **Vengeful Spirit upgrade**: Enhanced version of your first spell
-- **Myla's progression**: NPC story development
+- **Nailmaster Mato**: Teaches Cyclone Slash nail art
+- **Gorb (Warrior Dream)**: Dream boss encounter requiring Dream Nail
+- **Path to Grimm Troupe**: Brazier location (requires Dream Nail to activate)
 - **Hidden Grubs**: Several rescue opportunities
+- **King's Idol**: Valuable item for selling
 
 **Navigation tips:**
 - Enter from Forgotten Crossroads via eastern wall jump sections
@@ -65,8 +67,8 @@ Hollow Knight's most rewarding content lies beyond the main story path. This cha
 - Watch for crumbling platforms and timing-based challenges
 
 **Secrets within secrets:**
-- **Nightmare King's Cave**: Requires specific late-game progression
-- **Hidden charm vendor**: Accessed through careful platform navigation
+- **Grimm Troupe initiation**: After obtaining Dream Nail, light the brazier to start the Grimm Troupe quest line (later accessible in Dirtmouth)
+- **Nightmare King Grimm**: End result of progressing the Grimm Troupe quest - one of the game's ultimate optional bosses
 - **Lore tablets**: Important story information about the ancient kingdom
 
 ### Resting Grounds
@@ -93,20 +95,27 @@ Hollow Knight's most rewarding content lies beyond the main story path. This cha
 ## Mid-Game Hidden Content
 
 ### Royal Waterways Secrets
-**Access requirements:** Swim ability and various movement skills
-**When to explore:** After acquiring swim ability from Dung Defender
+**Access requirements:** Simple Key (from Sly in Dirtmouth or found in City of Tears/Fungal Wastes)
+**When to explore:** Mid-game onwards; full exploration requires Isma's Tear for acid immunity
 
 **Hidden areas:**
-- **Junk Pit**: Deep underwater exploration with unique rewards
-- **Flukemarm boss chamber**: Optional boss with charm reward
+- **Isma's Grove**: Contains Isma's Tear (acid immunity ability)
+- **Junk Pit**: Deep exploration areas with unique rewards
+- **Flukemarm boss chamber**: Optional boss with Flukenest charm reward
 - **Hidden passages**: Multiple secret routes connecting to other areas
-- **Isma's Grove**: Contains acid immunity ability
+- **Dung Defender arena**: Boss fight that rewards Defender's Crest charm
+
+**Key ability: Isma's Tear**
+- **Location:** Isma's Grove (accessed through Royal Waterways)
+- **Function:** Grants acid immunity, allowing safe passage through acid pools
+- **Impact:** Opens up many previously inaccessible areas throughout Hallownest
 
 **Exploration strategy:**
-- **Acid navigation**: Learn to move efficiently in acidic water
-- **Swim mechanics**: Master underwater movement and combat
+- **Initial access**: Use Simple Key to enter via elevator from City of Tears
+- **Map thoroughly**: Complex layout with many interconnected passages
+- **Dung Defender first**: Fight this boss to get Defender's Crest charm
+- **Find Isma's Tear**: Essential for full area exploration and accessing other acid-filled areas
 - **Secret wall detection**: Many passages hidden behind breakable walls
-- **Vertical exploration**: Use swim ability to access previously unreachable heights
 
 ### Queen's Gardens Secrets
 **Access requirements:** Acid immunity, advanced movement abilities
@@ -127,7 +136,7 @@ Hollow Knight's most rewarding content lies beyond the main story path. This cha
 ## Late-Game Secret Areas
 
 ### White Palace
-**Access requirements:** Awakened Dream Nail, King Fragment
+**Access requirements:** Awoken Dream Nail (requires collecting essence from Warrior Dreams and visiting Seer)
 **Difficulty:** ⭐⭐⭐⭐⭐ (Extreme - Platforming Focus)
 **When to attempt:** Late game, when comfortable with all movement abilities
 
@@ -145,11 +154,16 @@ Hollow Knight's most rewarding content lies beyond the main story path. This cha
 - **Pure platforming**: No combat, only movement challenges
 - **Precise timing**: Requires mastery of all movement abilities
 - **Story revelations**: Critical information about the Pale King
-- **Kingsoul charm**: Required for true ending progression
+- **Kingsoul charm reward**: One half obtained here (other half from White Lady in Queen's Gardens); complete Kingsoul transforms into Void Heart after Abyss sequence
+
+**Entry requirements clarification:**
+- **Awoken Dream Nail**: Upgrade of Dream Nail obtained from Seer after collecting enough essence
+- **Access point**: Use Awoken Dream Nail on the corpse in the Palace Grounds area
+- **No "King Fragment" needed**: The Kingsoul halves are rewards, not prerequisites
 
 **Preparation recommendations:**
 - **Master all movement**: You'll need every ability you've learned
-- **Recommended charms**: Dashmaster, Quick Focus, Grubsong
+- **Recommended charms**: Dashmaster, Quick Focus, Grubsong, Hiveblood
 - **Patience required**: Some sections require many attempts
 - **Save often**: Use available benches to minimize retries
 
@@ -157,7 +171,7 @@ Hollow Knight's most rewarding content lies beyond the main story path. This cha
 1. **Entry chambers**: Basic skill verification
 2. **Workshop area**: Introduction to saw blade obstacles
 3. **Main palace**: Complex multi-ability navigation
-4. **Throne room**: Final approach with story payoff
+4. **Throne room**: Final approach with story payoff and second Kingsoul half
 
 ### Path of Pain (White Palace Secret)
 **Access requirements:** Complete White Palace, find secret entrance
@@ -224,7 +238,7 @@ Hollow Knight's most rewarding content lies beyond the main story path. This cha
 ## Endgame Optional Content
 
 ### Godhome
-**Access requirements:** Complete specific boss encounters, find secret entrance
+**Access requirements:** Awoken Dream Nail; find and interact with hidden cocoon in Royal Waterways (Junk Pit area)
 **Content type:** Boss rush challenges and ultimate difficulty tests
 
 <div class="spoiler-box">
@@ -233,7 +247,7 @@ Hollow Knight's most rewarding content lies beyond the main story path. This cha
     <div class="spoiler-toggle">▼</div>
   </div>
   <div class="spoiler-content">
-    <p>Godhome is accessed through a secret area in the Royal Waterways. You must have completed several specific boss fights and have the Awoken Dream Nail to enter.</p>
+    <p>Godhome is accessed through a hidden cocoon in the Junk Pit area of Royal Waterways. You must have the Awoken Dream Nail to enter. Use the Dream Nail on the large ornate cocoon to access this endgame challenge area.</p>
   </div>
 </div>
 

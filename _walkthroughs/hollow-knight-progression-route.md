@@ -41,6 +41,23 @@ Hollow Knight follows the classic Metroidvania progression:
   Your ultimate goal is to defeat the three Dreamers, which requires accessing their locations deep within major areas. Think of the game as three main "branches" plus central hub areas.
 </div>
 
+## Movement & Ability Timeline
+
+Understanding when and where you acquire abilities is crucial for efficient progression:
+
+1. **Vengeful Spirit** - Snail Shaman (Ancestral Mound, Forgotten Crossroads) - First ranged spell
+2. **Mothwing Cloak** - Hornet (Greenpath) - Basic dash (no phasing)
+3. **Mantis Claw** - Mantis Village (Fungal Wastes) - Wall jump
+4. **Crystal Heart** - Crystal Peak (requires Lantern or sequence break) - Super dash
+5. **Monarch Wings** - Ancient Basin (after Broken Vessel) - Double jump
+6. **Shade Cloak** - The Abyss (requires King's Brand from Hornet Sentinel at Kingdom's Edge) - Shadow dash with phasing and invulnerability
+7. **Isma's Tear** - Royal Waterways (Isma's Grove) - Acid immunity
+
+**Late/Optional Tools:**
+- **Dream Nail** → **Awoken Dream Nail** (after collecting essence from Warrior Dreams and Seer)
+- **Dream Gate** (fast travel)
+- **Kingsoul** → **Void Heart** (White Palace halves, then Abyss transformation)
+
 ## Early Game Route (First 3-5 Hours)
 
 ### Starting Area: Forgotten Crossroads
@@ -57,46 +74,74 @@ Hollow Knight follows the classic Metroidvania progression:
 
 **Exit when:** You've explored most accessible areas and have 300+ Geo
 
-### First Major Ability: Mothwing Cloak (Dash)
+### First Major Ability: Vengeful Spirit (Spell)
 **Location:** Ancestral Mound (accessed via Forgotten Crossroads)
-**Why it's crucial:** Dash ability opens up countless new paths throughout the world
+**Why it's crucial:** Your first ranged attack spell, allowing you to hit enemies from a safe distance
 
 **How to get there:**
 1. In Forgotten Crossroads, find the acid pool area
 2. Jump across the acid using platforms
 3. Enter the Ancestral Mound
-4. Navigate to the ability pickup (straightforward path)
+4. Navigate to the Snail Shaman (straightforward path)
+5. Receive Vengeful Spirit spell
+
+<div class="tip-box warning">
+  <div class="tip-title">🚨 First Spell Acquired</div>
+  Vengeful Spirit is your first offensive spell. It costs Soul to use but lets you attack from range, which is especially useful for dealing with enemies on platforms or across gaps.
+</div>
+
+### Early Exploration with Vengeful Spirit
+**Return to Forgotten Crossroads:**
+- Use your spell to defeat enemies from safer positions
+- Access areas requiring ranged attacks
+- Practice Soul management and spell usage
+
+**New area preparation:**
+- Continue exploring Forgotten Crossroads thoroughly
+- Collect Geo for essential purchases
+- Look for charm locations and Geo caches
+
+### Second Major Ability: Mothwing Cloak (Dash)
+**Location:** Greenpath (rewarded after defeating Hornet)
+**Why it's crucial:** Dash ability opens up countless new paths throughout the world
+
+**How to get there:**
+1. From Forgotten Crossroads, head toward Greenpath (typically through the eastern areas)
+2. Purchase the Greenpath map from Cornifer (listen for his humming)
+3. Explore Greenpath until you encounter Hornet
+4. Defeat Hornet to receive the Mothwing Cloak
 
 <div class="tip-box warning">
   <div class="tip-title">🚨 Critical Milestone</div>
-  The dash ability is your first major game-changer. Once you have it, many previously blocked paths become accessible. Take time to backtrack and explore!
+  The Mothwing Cloak (dash) is your first major movement upgrade. It provides quick horizontal positioning but does NOT provide invulnerability frames or phasing ability. The upgraded version (Shade Cloak) with those properties comes much later in the game.
 </div>
 
 ### Immediate Post-Dash Exploration
-**Return to Forgotten Crossroads:**
-- Dash gaps you couldn't cross before
+**Return to previous areas:**
+- Dash across gaps you couldn't cross before
 - Access new vertical shafts and secret areas
-- Look for charm locations and Geo caches
+- Look for additional charm locations
 
 **New area access:**
-- **Greenpath**: Accessible via acid pool dash sequence
 - **Fungal Wastes**: Through southern Forgotten Crossroads
-- **Crystal Peak**: Northern routes now accessible
+- **Crystal Peak**: Northern routes now more accessible (may need additional abilities for full exploration)
+- **Various secret passages**: Throughout previously explored areas
 
-### Recommended Next: Greenpath
-**Why Greenpath:** Natural progression, manageable difficulty, important story elements
+### Greenpath Key Content
+**Why Greenpath is important:** Natural early progression area with manageable difficulty and the crucial dash ability
 
 **Key objectives in Greenpath:**
 - Purchase area map from Cornifer
-- Find Hornet boss fight (major story milestone)
+- Find and defeat Hornet boss fight (rewards Mothwing Cloak)
 - Locate several charms and upgrades
 - Practice combat against new enemy types
 
 **What you'll gain:**
+- **Mothwing Cloak** (dash ability from Hornet)
 - **Mask Shard** (increased health)
 - **Charm notches** (more charm capacity)
-- **Acid immunity** (opens new paths)
-- **Story progression** (Hornet encounter)
+- **Hunter's Journal progress** (new enemy encounters)
+- **Story progression** (Hornet encounter sets up later plot points)
 
 ## Mid Game Route (5-10 Hours)
 
@@ -143,12 +188,13 @@ With both dash and wall jump, you can access:
 ### Third Major Ability: Crystal Heart (Super Dash)
 **Location:** Crystal Peak
 **Why crucial:** Provides access to distant platforms and new areas
+**Prerequisites:** Dash and wall jump recommended; Lumafly Lantern helpful for dark areas (or sequence break)
 
 **Crystal Peak route:**
 1. Enter from City of Tears or Forgotten Crossroads
-2. Navigate the mining infrastructure carefully
+2. Navigate the mining infrastructure carefully (some areas are dark without Lantern)
 3. Avoid or defeat the Crystal Guardian (optional boss)
-4. Reach the peak for the ability
+4. Use dash and wall jump to reach the peak for the ability
 
 **What this unlocks:**
 - **Ancient Basin**: Full access
@@ -211,10 +257,13 @@ Once you have solid movement abilities, focus on the main objective:
 **When to get:** After Crystal Heart, before attempting some Dreamers
 **Impact:** Dramatically improves vertical mobility
 
-### Advanced Dash: Shade Cloak
+### Shadow Dash: Shade Cloak
 **Location:** The Abyss (late game area)
+**Prerequisites:** King's Brand (obtained from defeating Hornet Sentinel at Kingdom's Edge)
 **When to get:** Usually acquired during late-game progression
-**Impact:** Phase through enemies and certain barriers
+**Impact:** Phase through enemies and shadow gates; provides invulnerability window during dash
+
+**Important Note:** Shade Cloak is the upgraded version of Mothwing Cloak that adds phasing and invulnerability properties. The basic dash (Mothwing Cloak) is purely for positioning and does not have these abilities.
 
 ## Flexible Progression Guidelines
 
@@ -231,11 +280,13 @@ Once you have solid movement abilities, focus on the main objective:
 - **Key charms acquired** for your playstyle
 
 ### Ability Acquisition Priority
-1. **Mothwing Cloak** (Dash) - Essential early mobility
-2. **Mantis Claw** (Wall Jump) - Opens vertical exploration
-3. **Crystal Heart** (Super Dash) - Access to distant areas
-4. **Monarch Wings** (Double Jump) - Advanced mobility
-5. **Shade Cloak** (Shadow Dash) - Late game traversal
+1. **Vengeful Spirit** (Spell) - First ranged attack capability
+2. **Mothwing Cloak** (Dash) - Essential early mobility (no phasing/invulnerability)
+3. **Mantis Claw** (Wall Jump) - Opens vertical exploration
+4. **Crystal Heart** (Super Dash) - Access to distant areas
+5. **Monarch Wings** (Double Jump) - Advanced mobility
+6. **Shade Cloak** (Shadow Dash) - Late game traversal with phasing (requires King's Brand from Hornet Sentinel)
+7. **Isma's Tear** (Acid Immunity) - Access to acid-filled areas
 
 <div class="tip-box">
   <div class="tip-title">🎯 Progress Tracking</div>
@@ -269,8 +320,8 @@ Even when following a structured route, always:
 <div class="tip-box success">
   <div class="tip-title">📍 Progression Checkpoints</div>
   <ul>
-    <li>✅ Acquired dash ability (Mothwing Cloak)</li>
-    <li>✅ Explored Greenpath and fought Hornet</li>
+    <li>✅ Acquired Vengeful Spirit spell (Ancestral Mound)</li>
+    <li>✅ Explored Greenpath and defeated Hornet for dash (Mothwing Cloak)</li>
     <li>✅ Acquired wall jump (Mantis Claw)</li>
     <li>✅ Accessed City of Tears and established upgrade base</li>
     <li>✅ Acquired super dash (Crystal Heart)</li>

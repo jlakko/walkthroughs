@@ -28,6 +28,8 @@ This comprehensive Hollow Knight walkthrough covers everything you need to know 
 - Face the Hollow Knight and discover multiple endings
 - Master the complex movement and combat systems
 
+**Movement Ability Clarification:** This guide distinguishes between **Mothwing Cloak** (basic dash - provides mobility but no invulnerability or phasing) and **Shade Cloak** (shadow dash upgrade - allows phasing through enemies and shadow gates with invulnerability window). Understanding this distinction is crucial for proper progression.
+
 ### 🏆 Complete Exploration
 - Discover all major areas and secret locations
 - Collect all Charms, Mask Shards, and Vessel Fragments

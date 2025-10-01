@@ -41,25 +41,38 @@ Hollow Knight has depth that extends far beyond what the game explicitly teaches
   <div class="tip-title">🚀 Pro Pogo Tips</div>
   <ul>
     <li>Hold down + attack just before contact for consistent bounces</li>
-    <li>You can pogo off your own spells in some situations</li>
     <li>Directional influence works while pogo jumping</li>
+    <li>Chain pogo across multiple enemies or environmental hazards</li>
+    <li>Pogo over acid using enemies as platforms</li>
     <li>Some enemies require precise timing - practice on easier targets first</li>
   </ul>
 </div>
 
-### Dash Optimization
-**Basic dash mechanics:** Short-distance movement with invincibility frames
+### Dash Optimization (Mothwing Cloak)
+**Basic dash mechanics:** Short-distance horizontal movement for positioning (no invulnerability frames)
 
 **Advanced dash techniques:**
-- **Dash-slash combos**: Attack immediately after dashing for positioning
-- **Invincibility timing**: Use I-frames to pass through attacks
+- **Dash-slash combos**: Attack immediately after dashing for positioning advantage
 - **Dash-jumping**: Extend jump distance by dashing at peak height
-- **Wall-dash combinations**: Dash into walls then immediately wall-jump
+- **Wall-dash combinations**: Dash into walls then immediately wall-jump for quick direction changes
+- **Gap crossing**: Essential for accessing many areas and avoiding hazards
 
-**Shadow Dash (late game):**
-- **Phase through enemies**: Walk through previously dangerous foes
-- **Extended invincibility**: Longer I-frame window than normal dash
-- **Barrier penetration**: Pass through certain walls and obstacles
+**Important Note:** The basic dash (Mothwing Cloak) does NOT provide invulnerability frames or phasing ability. It is purely for positioning and mobility.
+
+### Shade Cloak (Shadow Dash - Late Game Upgrade)
+**Obtained from:** The Abyss (requires King's Brand from Hornet Sentinel at Kingdom's Edge)
+
+**Shade Cloak features:**
+- **Phase through enemies**: Pass through enemies without taking damage
+- **Invulnerability window**: Brief invincibility during the dash
+- **Shadow gate access**: Pass through special shadow barriers
+- **Extended dash properties**: All basic dash techniques plus phasing capability
+
+**Shade Cloak advanced techniques:**
+- **Enemy phasing**: Walk through previously dangerous foes safely
+- **Attack phase combos**: Phase through enemies while attacking
+- **Barrier penetration**: Access areas blocked by shadow gates
+- **Boss invincibility timing**: Use I-frames to avoid damage in boss fights
 
 ### Wall Jump Efficiency
 **Beyond basic wall climbing:**

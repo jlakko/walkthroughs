@@ -3,6 +3,89 @@
 ## Overview
 This guide provides instructions for creating comprehensive, engaging, and humorous game walkthroughs that help gamers master their favorite games. Our goal is to make complex gaming concepts accessible, enjoyable, and memorable.
 
+## 🛠️ Repository Structure & Technical Setup
+
+### Project Overview
+This is a Jekyll-based static site hosted on GitHub Pages. The site features:
+- **Jekyll Collections** for organizing walkthrough content
+- **Responsive design** with mobile-first approach
+- **Theme switching** (Light, Dark, Minecraft, Ocean)
+- **Progress tracking** for readers
+- **Spoiler system** for story-sensitive content
+
+### Directory Structure
+```
+/
+├── _walkthroughs/          # Individual chapter markdown files
+├── _layouts/               # Jekyll layout templates
+├── _sass/                  # SCSS stylesheets
+├── assets/                 # JavaScript, images, and other assets
+├── [game-name]/           # Game-specific landing pages (e.g., fallout4/, minecraft/)
+├── _config.yml            # Jekyll configuration
+└── .github/
+    └── copilot-instructions.md
+```
+
+### Working with Jekyll Collections
+- All walkthrough chapters go in `_walkthroughs/` directory
+- Each game has a landing page in its own directory (e.g., `fallout4/index.md`)
+- Collections are configured in `_config.yml` with `output: true`
+- Chapters automatically get `/walkthroughs/[filename]/` URLs
+
+### Building and Testing Locally
+```bash
+# Install dependencies
+bundle install
+
+# Run Jekyll development server
+bundle exec jekyll serve
+
+# Access at http://localhost:4000/walkthroughs/
+```
+
+### Key Files to Update When Adding Content
+1. **New chapter file**: Add to `_walkthroughs/` with proper front matter
+2. **Game landing page**: Create or update `[game-name]/index.md`
+3. **Homepage**: Update `index.md` to add new walkthrough card
+4. **Navigation**: Update `_layouts/default.html` if adding new game section
+
+### File Naming Conventions
+- Chapter files: `[game-name]-[chapter-name].md` (e.g., `fallout4-introduction.md`)
+- Use lowercase with hyphens
+- Keep names descriptive but concise
+
+## 📋 Front Matter Requirements
+
+Every chapter file must include complete front matter:
+
+```yaml
+---
+title: "Chapter Title"                      # Required: Display title
+description: "Brief chapter description"    # Required: For SEO and navigation
+walkthrough: "game-name"                   # Required: Collection identifier (lowercase, hyphenated)
+walkthrough_title: "Game Complete Guide"   # Required: Display name for breadcrumbs
+chapter_order: 1                           # Required: Numeric order for sorting (integer)
+estimated_time: "30 minutes"               # Optional: Reading time estimate
+breadcrumbs:                               # Optional: Navigation breadcrumbs
+  - title: "Home"
+    url: "/"
+  - title: "Game Guide"
+    url: "/game/"
+  - title: "Chapter Title"
+tips:                                      # Optional: Quick tips for sidebar
+  - "Helpful tip 1"
+  - "Helpful tip 2"
+tags: [game-name, category]                # Optional: SEO tags
+---
+```
+
+### Front Matter Best Practices
+- **walkthrough**: Must match across all chapters of the same game
+- **chapter_order**: Use integers (1, 2, 3...) for proper sorting
+- **estimated_time**: Help readers plan their reading sessions
+- **breadcrumbs**: Maintain consistent hierarchy across chapters
+- **tips**: Include 2-4 actionable tips relevant to the chapter
+
 ## 🎯 Core Principles
 
 ### 1. Write for Real Gamers
@@ -160,6 +243,67 @@ Remember, this isn't Dark Souls - dying here just means you lose your stuff, not
 </div>
 ```
 
+## 🎨 Custom Components & CSS Classes
+
+### Available Tip Box Types
+```html
+<!-- Standard tip box (blue border) -->
+<div class="tip-box">
+  <div class="tip-title">💡 Pro Tip</div>
+  Content here...
+</div>
+
+<!-- Warning box (red border) -->
+<div class="tip-box warning">
+  <div class="tip-title">⚠️ Warning</div>
+  Content here...
+</div>
+
+<!-- Success box (green border) -->
+<div class="tip-box success">
+  <div class="tip-title">✅ Success</div>
+  Content here...
+</div>
+```
+
+### Spoiler System
+```html
+<div class="spoiler-box warning">
+  <div class="spoiler-header">
+    <div class="spoiler-title">⚠️ Spoiler Warning</div>
+    <div class="spoiler-toggle">▼</div>
+  </div>
+  <div class="spoiler-content">
+    <p>Hidden content that reveals plot points...</p>
+    <!-- Can include any markdown/HTML content -->
+    <!-- Supports nested tip-boxes, lists, etc. -->
+  </div>
+</div>
+```
+
+### Walkthrough Cards (for index pages)
+```html
+<div class="walkthrough-grid">
+  <div class="walkthrough-card">
+    <h3>Chapter Title</h3>
+    <div class="card-meta">Estimated time or metadata</div>
+    <div class="card-description">Brief description</div>
+    <a href="link" class="btn">Read Chapter</a>
+  </div>
+</div>
+```
+
+### Breadcrumbs
+Automatically rendered from front matter when using the chapter layout.
+
+### Progress Tracking
+Interactive JavaScript components automatically handle:
+- Theme switching
+- Spoiler toggle states (persisted in localStorage)
+- Mobile navigation
+- Progress tracking
+- Lazy image loading
+
 ## 📚 Chapter Structure Template
 
 ### Chapter Opening
@@ -232,6 +376,69 @@ Before publishing any walkthrough content, verify:
 - [ ] **Optimized images** with proper alt text
 - [ ] **Consistent formatting** throughout
 - [ ] **Mobile responsive** design elements
+- [ ] **Valid front matter** with all required fields
+- [ ] **Proper file naming** following conventions
+
+## 📝 Markdown & Formatting Rules
+
+### Heading Hierarchy
+- Use `##` for main sections (H2)
+- Use `###` for subsections (H3)
+- Use `####` for minor subsections (H4)
+- Never skip heading levels
+- Keep headings descriptive and scannable
+
+### Lists
+- Use `-` for unordered lists (consistent across site)
+- Use `1.` for ordered lists
+- Include space after list marker
+- Keep list items concise
+
+### Links
+- Use relative URLs for internal links: `[link text](/game/chapter/)`
+- Use Liquid tags for asset URLs: `{{ '/assets/images/file.png' | relative_url }}`
+- Always include descriptive link text (avoid "click here")
+
+### Code Blocks
+```markdown
+Use triple backticks with language identifier:
+```yaml
+# Your code here
+\```
+```
+
+### Emphasis
+- Use `**bold**` for important terms and actions
+- Use `*italic*` for emphasis (sparingly)
+- Use emojis strategically for visual breaks
+
+## 🔧 Common Tasks
+
+### Adding a New Walkthrough
+
+1. **Create game directory**: `mkdir [game-name]`
+2. **Create index page**: `[game-name]/index.md` with landing page content
+3. **Add chapter files**: `_walkthroughs/[game-name]-chapter-name.md`
+4. **Update homepage**: Add card to `index.md`
+5. **Update navigation**: Add link in `_layouts/default.html` if needed
+6. **Test locally**: Run `bundle exec jekyll serve` and verify all links work
+
+### Adding a New Chapter
+
+1. Create file in `_walkthroughs/` with naming convention
+2. Add complete front matter
+3. Write content following style guide
+4. Update chapter_order of other chapters if inserting
+5. Add navigation links to/from adjacent chapters
+6. Test rendering and navigation
+
+### Updating Existing Content
+
+1. Maintain existing structure unless improving
+2. Preserve front matter consistency
+3. Keep existing chapter_order unless reordering
+4. Update estimated_time if significantly changed
+5. Verify links still work after changes
 
 ## 🎯 Remember: We're Here to Help Gamers Win
 

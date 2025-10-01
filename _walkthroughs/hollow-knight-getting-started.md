@@ -51,7 +51,7 @@ Hollow Knight combines tight platforming controls with deep exploration, meaning
 
 ### Advanced Movement (You'll Learn These)
 - **Wall Jump**: Unlocked later, allows wall climbing
-- **Dash**: Quick horizontal movement with invincibility frames
+- **Dash**: Quick horizontal movement for positioning (no invulnerability until upgraded much later)
 - **Double Jump**: Extended air mobility
 - **Super Dash**: High-speed horizontal movement
 
@@ -218,6 +218,23 @@ This is your first real area. Focus on:
     <li>✅ Ready to tackle your first major ability acquisition</li>
   </ul>
 </div>
+
+## Movement & Ability Timeline
+
+Understanding the order in which you acquire abilities helps plan your exploration route:
+
+1. **Vengeful Spirit** - Snail Shaman (Ancestral Mound, Forgotten Crossroads) - Your first ranged attack spell
+2. **Mothwing Cloak** - Hornet (Greenpath) - Basic dash for horizontal movement (no phasing)
+3. **Mantis Claw** - Mantis Village (Fungal Wastes) - Wall jump for vertical exploration
+4. **Crystal Heart** - Crystal Peak - Super dash for long horizontal movement
+5. **Monarch Wings** - Ancient Basin (after Broken Vessel) - Double jump
+6. **Shade Cloak** - The Abyss (requires King's Brand from Hornet Sentinel at Kingdom's Edge) - Shadow dash with invulnerability and phasing through enemies/shadow gates
+7. **Isma's Tear** - Royal Waterways (Isma's Grove) - Acid immunity
+
+**Late/Optional Tools:**
+- **Dream Nail** → **Awoken Dream Nail** (after collecting enough essence from Warrior Dreams)
+- **Dream Gate** (fast travel ability)
+- **Kingsoul** → **Void Heart** (White Palace progression for true ending)
 
 ## Next Steps
 

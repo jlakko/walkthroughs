@@ -400,12 +400,12 @@ Before publishing any walkthrough content, verify:
 - Always include descriptive link text (avoid "click here")
 
 ### Code Blocks
-```markdown
 Use triple backticks with language identifier:
+````markdown
 ```yaml
 # Your code here
-\```
 ```
+````
 
 ### Emphasis
 - Use `**bold**` for important terms and actions

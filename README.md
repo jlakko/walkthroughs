@@ -105,3 +105,12 @@ This site is built with Jekyll and hosted on GitHub Pages. Visit the live site t
 ## Contributing
 
 Suggestions for new walkthroughs or improvements to existing guides are welcome! Please follow the structure outlined above for consistency.
+
+### For Contributors
+
+If you're working with GitHub Copilot or want detailed guidance on creating walkthrough content, see our comprehensive [Copilot Instructions](.github/copilot-instructions.md) which covers:
+- Repository structure and technical setup
+- Content writing guidelines and style
+- Front matter requirements
+- Custom components and CSS classes
+- Common tasks and workflows
